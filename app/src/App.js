@@ -16,8 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-          my mana
+          Learn React fejfbej jbjbj njbjb
         </a>
       </header>
     </div>
