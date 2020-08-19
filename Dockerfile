@@ -1,14 +1,14 @@
 FROM node:alpine
 
-WORKDIR /app
+WORKDIR '/app'
 
-COPY /app/package.json ./
+COPY '/app/package.json' ./
 
 RUN npm install
 
-COPY ./app ./
+COPY './app' ./
 
-RUN npm run build
+RUN ['npm', 'run', 'build']
 
 FROM nginx
 EXPOSE 80
